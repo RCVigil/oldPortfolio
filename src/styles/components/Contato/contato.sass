@@ -7,13 +7,13 @@
   flex: 1 1 0
   flex-direction: column
   justify-content: center
-  height: 30rem
+  height: 50rem
   padding: 3rem
   position: relative
   text-align: center
   width: 100%
 
-  img
+  .imgAvatar
     border-radius: variable.$foto-border-radius
     max-width: 70%
     top: -3rem
@@ -24,12 +24,63 @@
     -webkit-text-fill-color: transparent
     font-family: variable.$font-padrao
     font-size: 2.2rem
+    padding: 2rem
 
-  .btn
-    @include mixins.btn
+  h3
+    padding-top: 0.1rem
+    padding-bottom: 4rem
 
-  .btn:hover
-    background: variable.$color-darkBlue
-    color: variable.$color-white
-    font-size: 1.1rem
-    font-weight: 900
+  .divBtn
+    display: flex
+    height: 6rem
+    width: 100%
+
+    .divBtnCurric
+      align-items: flex-start
+      align-self: center
+      display: flex
+      height: 100%
+      justify-content: center
+      width: 100%
+
+    .div_voltar
+      align-content: flex-end
+      align-items: flex-end
+      display: flex
+      justify-content: flex-end
+      padding: 0.5rem
+      width: 8rem
+
+    .btn
+      @include mixins.btn
+      align-content: center
+      align-self: flex-start
+      flex-shrink: 1
+      margin-top: 1rem
+      margin-left: 7.5rem
+      padding-bottom: 1rem
+      width: 17rem
+
+    .btn:hover
+      background: variable.$color-darkBlue
+      color: variable.$color-white
+      font-size: 1.1rem
+      font-weight: 900
+      padding-bottom: 1rem
+
+    .btnVoltar
+      align-self: flex-end
+      background: #ffff7d6a
+      border: none
+      border-radius: 4rem 0.8rem
+      color: #b79a00
+      font-size: 1rem
+      height: 2rem
+      padding: 0.4rem 0.8rem
+      text-decoration: none
+      text-align: center
+      width: 100%
+
+    .btnVoltar:hover
+      background: #ffff6aa9
+      color: variable.$color-darkBlue

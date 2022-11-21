@@ -42,26 +42,34 @@
         border-radius: variable.$card-border-radius
         margin-top: 0.5rem
         margin-bottom: 0.5rem
-        width: 80px
+        width: 5rem
 
         a
           text-align: center
           font-size: 0.9rem
 
+        a:hover
+          background: variable.$gradient-card
+
         .img_tBody
           align-content: center
           align-items: center
           align-self: center
-          background: #fafbfc
+          background: transparent
           height: 3rem
           max-width: 70%
           margin: 0.5rem
+
+        .img_tBody:hover
+          background: transparent
+          height: 3.2rem
+          max-width: 80%
 
   .divH3
     font-size: 1.3rem
     font-family: variable.$font-h1
     order: 3
-    padding: 0.5rem
+    padding: 0.1rem
     text-align: center
     width: 100%
 

@@ -1,0 +1,62 @@
+@use '../../variable'
+
+.divSociais
+  height: 8rem
+  justify-content: flex-end
+  width: 100%
+
+  .tableSociais
+    height: 100%
+    width: 100%
+    order: 0
+
+    .theadSociais
+      display: flex
+      height: 100%
+      justify-content: space-around
+      textColor: #091E42
+      padding: 0.5rem
+      margin-bottom: 0.8rem
+      width: 100%
+
+      .trSociais
+        display: flex
+        flex-direction: row
+        justify-content: flex-start
+        gap: 4rem
+        valign: top
+        margin-left: 0.5rem
+
+        .tdSociais
+          display: flex
+          margin-top: 0.5rem
+          margin-bottom: 0.5rem
+          width: 5rem
+
+          a
+            font-size: 0.9rem
+            padding-bottom: 1rem
+            text-align: center
+
+          a:hover
+            background: variable.$gradient-card
+            border-radius: variable.$card-border-radius
+
+          .imgGitHub
+            background-color: variable.$color-black
+            width: 60%
+
+        .img_tdSociais
+          align-content: center
+          align-items: center
+          align-self: center
+          background: transparent
+          height: 3rem
+          max-width: 80%
+          margin: 0.2rem
+          border-radius: 0.6rem
+
+        .img_tBody:hover
+          background: transparent
+          height: 3.2rem
+          max-width: 80%
