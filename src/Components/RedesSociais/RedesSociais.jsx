@@ -1,6 +1,7 @@
 import React from 'react'; 
 
 import '../../styles/components/RedesSociais/redesSociais.sass'
+
 import Linkedin from '../../img/linkedin-83.svg'
 import GitHub from '../../img/GitHub-Icon-White-Logo.wine.svg'
 import WhattsApp from '../../img/whatsapp-33.svg'

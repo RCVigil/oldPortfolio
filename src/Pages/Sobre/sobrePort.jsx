@@ -1,25 +1,23 @@
-import React from 'react';
+import React from "react";
 
 import "../../styles/components/Sobre/sobre.sass";
 
-import Header from "../../Components/Header/Header";
-import Footer from "../../Components/Footer/Footer";
-
-import { Link } from "react-router-dom";
-
 const SobrePort = () => {
   return (
-    <div className="divPojetos">
-      <Header />
-      <div className="divContImg">
-        <h1 className="title">Sobre</h1>
-        <Link to={"/"}>
-          Voltar
-        </Link>
+    <div className="divSobre">
+      <div className="textoSobre">
+        <h1 className="titleSobre">Desenvolvedor Front-end</h1>
+        <p className="parSobre">
+          Em 2022, apaixonado por Tecnologia, decidi enfrentar novos desafios
+          nesta área, pois acredito que a vida é feita de constantes desafios.
+          Assim, após conhecer a Trybe, me dispus a estudar com afinco e
+          aprender novas ferramentas que me deram embasamento para trilhar novos
+          caminhos. Atualmente, estou apto a desempenhar novas funções na área
+          da tecnologia e já estou com o certificado de Front-End.
+        </p>
       </div>
-      <Footer />
     </div>
   );
-}
+};
 
 export default SobrePort;

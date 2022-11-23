@@ -1,17 +1,21 @@
 import React from "react";
-import "../../styles/components/Body/body.sass";
+import "../../styles/components/PrincipaisSatacks/PrincipaisSatacks.sass";
 
 const PrincipaisSatcks = () => {
   return (
-    <div>
+    <div className="divStacksPrinc">
+      <h1 className="h1PStacks">
+        Principais Stacks aprendidas em minha carreira!
+      </h1>
+
       <table className="tableBody1">
         <tbody className="tBody1">
           <tr className="tr_tBody1">
             <td className="td_tBody1">
               <a
                 target="_blank"
-                rel="noopener noreferrer nofollow"
-                href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
+                // rel="noopener noreferrer nofollow"
+                href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" rel="noreferrer"
               >
                 <img
                   alt="Imagem JavaScript"
@@ -169,6 +173,10 @@ const PrincipaisSatcks = () => {
           </tr>
         </tbody>
       </table>
+      <h3 className="divH3">
+        Qualquer dúvida, em relação à tecnologia é só clicar no nome, que você
+        será redirecionado ao site Oficial
+      </h3>
     </div>
   );
 };

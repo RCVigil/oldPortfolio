@@ -1,1 +1,31 @@
 @use '../../variable'
+
+.divSobre
+  align-items: flex-start
+  height: 30.5rem
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  justify-content: center
+  width: 100%
+
+  .textoSobre
+    height: 30rem
+    padding-top: 2rem
+
+  .titleSobre
+    background: variable.$gradient
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+    font-family: variable.$font-padrao
+    font-size: 2.5rem
+    text-align: center
+    z-index: 2
+
+  .parSobre
+    font-family: variable.$font-h1
+    font-size: 1.4rem
+    line-height: 200%
+    padding: 3rem
+    text-indent: 3rem
+    text-align: justify

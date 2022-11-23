@@ -1,62 +1,70 @@
 @use '../../variable'
 
 .allHeader
-  background-color: variable.$color-blue
+  // border: 3px dashed green
+  background: linear-gradient(90deg, #77a0d385 0%, #79cbca68 100%)
   display: flex
-  flex-direction: row
+  flex-direction: column
   justify-content: flex-start
   padding: 0.5rem
   gap: 3rem
-  height: 19rem
+  height: 9rem
   width: 100%
 
-.h1DivHeader
-  display: flex
-  margin: 1rem
-  padding: 1.5rem
-  height: 50%
-  width: 50%
+  .headerTop
+    display: flex
+    flex-direction: row
+    height: 5rem
+    justify-content: space-around
+    width: 100%
 
-.h1Header
-  align-self: center
-  font-size: 3.5rem
-  margin-bottom: 4rem
+    .h1DivHeader
+      display: flex
+      flex-direction: row
+      margin-left: 2rem
+      padding: 1.8rem
+      height: 100%
+      width: 100%
 
-  a
-    align-self: center
-    background: variable.$gradient
-    -webkit-background-clip: text
-    -webkit-text-fill-color: transparent
-    color: variable.$color-white
-    height: 6rem
-    font-family: variable.$font-padrao
-    font-size: 3rem
-    justify-content: center
-    justify-items: center
-    width: 45%
 
-.h3DivHeader
-  display: flex
-  justify-content: space-evenly
-  flex-wrap: wrap
-  padding: 1rem
-  gap: 0.5rem
-  height: 2rem
-  margin: 1rem
-  width: 40%
+      .h1Header
+        align-self: center
+        padding-top: 1rem
 
-.h3Header
-  flex-direction: row
+        .linkH1
+          align-self: center
+          background: variable.$gradient
+          -webkit-background-clip: text
+          -webkit-text-fill-color: transparent
+          color: variable.$color-white
+          height: 6rem
+          font-family: variable.$font-padrao
+          font-size: 3.5rem
+          justify-content: center
+          justify-items: center
+          width: 45%
 
-  a
-    color: variable.$color-darkBlue
-    font-family: variable.$font-paragrafo
-    font-size: 0.9rem
-    margin: 0.1rem
-    padding: 0.25rem
+    .h3DivHeader
+      display: flex
+      flex-wrap: wrap
+      justify-content: space-evenly
+      margin-right: 1rem
+      padding-top: 1rem
+      gap: 0.5rem
+      height: 100%
+      width: 50%
 
-  a:hover
-      color: #1D00F7
-      font-size: 1.3rem
-      font-weight: 100
+      .h3Header
+        flex-direction: row
 
+        .linkH3Header
+          color: variable.$color-darkBlue
+          font-family: variable.$font-paragrafo
+          font-size: 0.9rem
+          margin: 0.1rem
+          padding: 0.25rem
+
+        .linkH3Header:hover
+            color: #1D00F7
+            font-size: 1.3rem
+            font-weight: 100

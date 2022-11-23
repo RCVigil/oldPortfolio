@@ -1,20 +1,23 @@
 import React from "react";
 
 import "../../styles/components/Body/body.sass";
-import PrincipaisSatcks from "../Utils/PrincipaisSatcks";
+
+import SobrePort from "../../Pages/Sobre/sobrePort";
+import PrincipaisStacks from "../Utils/PrincipaisSatcks";
+import Aside from "../ASide/Aside";
 
 const Body = () => {
   return (
-    <div className="bodyDiv">
-      <h1>Principais Stacks aprendidas em minha carreira!</h1>
+    <section className="sectionBody">
+      <div className="bodyDiv">
+        <SobrePort />
 
-      <PrincipaisSatcks />
-
-      <h3 className="divH3">
-        Qualquer dúvida, em relação à tecnologia é só clicar no nome, que você
-        será redirecionado ao site Oficial
-      </h3>
-    </div>
+        <PrincipaisStacks />
+      </div>
+      <div className="bodyDivAside">
+        <Aside />
+      </div>
+    </section>
   );
 };
 

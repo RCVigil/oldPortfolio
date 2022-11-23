@@ -17,8 +17,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.6.0",
     "react-router": "^6.4.3",
-    "react-router-dom": "^6.4.3",
-    "react-simply-carousel": "^8.3.5"
+    "react-router-dom": "^6.4.3"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.4",

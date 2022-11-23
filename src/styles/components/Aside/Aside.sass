@@ -1,0 +1,52 @@
+@use '../../variable'
+
+.divAsideTop
+  background: #79cbca68
+  display: flex
+  flex-direction: column
+  height: 50rem
+  width: 100%
+
+  .h1Aside
+    font-size: 0.7rem
+    text-align: center
+    padding-bottom: 1.5rem
+    padding-top: 0.5rem
+
+  .tableAside
+    display: flex
+    height: 100%
+    width: 100%
+
+    .tbodyAside
+      // border: 1px solid blue
+      display: flex
+      width: 100%
+
+      .trAside1
+        align-items: center
+        // border: 1px solid #fff
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        width: 100%
+        gap: 1rem
+
+        .tdAside1
+          display: flex
+          justify-content: center
+          padding-top: -2.3rem
+          padding-bottom: 0.5rem
+          width: 95%
+
+          .imgAside
+            align-content: center
+            align-items: center
+            align-self: center
+            background: transparent
+            border-radius: variable.$card-border-radius
+            height: 1.9rem
+            width: 90%
+
+          .imgAside:hover
+            opacity: 0.5
