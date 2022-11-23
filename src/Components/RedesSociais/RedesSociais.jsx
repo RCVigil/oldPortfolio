@@ -42,21 +42,6 @@ const RedesSociais = () => {
                 GitHub
               </a>
             </td>
-            <td className="tdSociais">
-              <a
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                href="https://api.whatsapp.com/send?phone=5512981177499&text=Seja%20bem%20vindo!%20ao%20meu%20Portf%C3%B3lio%2C%20em%20breve%20te%20responderei%2C%20Obrigado%20pelo%20contato"
-                className="a_tdSociais"
-              >
-                <img
-                  alt="imagem do WhattsApp"
-                  src={WhattsApp}
-                  className="img_tdSociais"
-                />
-                WhattsApp
-              </a>
-            </td>
           </tr>
         </thead>
       </table>
