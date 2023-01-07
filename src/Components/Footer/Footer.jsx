@@ -5,7 +5,7 @@ import "../../styles/components/Footer/footer.sass";
 const Footer = () => {
   return (
     <footer className='footerAll'>
-      <p>Última atualização: Nov/2022</p>
+      <p>Última atualização: JAN/2023</p>
     </footer>
   );
 }
