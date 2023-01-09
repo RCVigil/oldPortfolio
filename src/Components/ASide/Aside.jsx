@@ -4,7 +4,7 @@ import "../../styles/components/Aside/Aside.sass";
 
 export default function Aside() {
   return (
-    <div className="divAsideTop">
+    <div className="col-1 divAsideTop">
       <h1 className="h1Aside">Stacks utilizadas em projetos</h1>
       <table className="tableAside">
         <tbody className="tbodyAside">

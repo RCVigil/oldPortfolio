@@ -10,7 +10,7 @@ function Header() {
         <div className="h1DivHeader">
         <h1 className="h1Header">
           <Link
-          className="linkH1"
+          className="fs-1 linkH1"
             to={'/'}>
             Rodrigo Cuervo
           </Link>

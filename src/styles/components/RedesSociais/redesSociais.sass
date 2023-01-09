@@ -12,16 +12,17 @@
 
     .theadSociais
       display: flex
-      height: 100%
+      height: auto
       justify-content: space-around
-      textColor: #091E42
-      padding: 0.5rem
       margin-bottom: 0.8rem
+      padding: 0.5rem
+      textColor: #091E42
       width: 100%
 
       .trSociais
         display: flex
         flex-direction: row
+        flex-wrap: wrap
         justify-content: flex-start
         gap: 4rem
         valign: top
@@ -36,11 +37,13 @@
           a
             font-size: 0.9rem
             padding-bottom: 1rem
+            text-decoration: none
             text-align: center
 
           a:hover
             background: variable.$gradient-card
             border-radius: variable.$card-border-radius
+            transition: 0.001s
 
           .imgGitHub
             background-color: variable.$color-black
