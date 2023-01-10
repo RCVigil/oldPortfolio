@@ -15,7 +15,8 @@ const PrincipaisSatcks = () => {
               <a
                 target="_blank"
                 // rel="noopener noreferrer nofollow"
-                href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" rel="noreferrer"
+                href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
+                rel="noreferrer"
               >
                 <img
                   alt="Imagem JavaScript"
@@ -168,6 +169,26 @@ const PrincipaisSatcks = () => {
                   data-canonical-src="https://cdn.worldvectorlogo.com/logos/redux.svg"
                 />
                 <strong>Redux</strong>
+              </a>
+            </td>
+
+            <td className="td_tBody1">
+              <a
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                href="https://vercel.com"
+              >
+                <svg
+                  className="img_tBody"
+                  // width="76"
+                  // height="65"
+                  viewBox="0 0 72 61"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M37.5274 0L75.0548 65H0L37.5274 0Z" fill="#000000" />
+                </svg>
+                <strong>Vercel</strong>
               </a>
             </td>
           </tr>
