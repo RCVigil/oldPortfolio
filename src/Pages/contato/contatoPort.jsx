@@ -8,7 +8,8 @@ import RedesSociais from "../../Components/RedesSociais/RedesSociais";
 
 import Avatar from "../../img/RodrigoFoto.jpeg";
 import Curriculum from "../../img/curriculum-Front-End_PDF-IMPRESSAO.pdf";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import BtnVoltar from "../../Components/Utils/BtnVoltar";
 
 const ContatoPort = () => {
   return (
@@ -27,14 +28,7 @@ const ContatoPort = () => {
               Download Curriculum
             </a>
           </div>
-          <div className="div_voltar">
-            <Link
-            className="btnVoltar"
-              to='/'
-            >
-              Voltar
-            </Link>
-          </div>
+          <BtnVoltar />
         </div>
       </div>
       <Footer />

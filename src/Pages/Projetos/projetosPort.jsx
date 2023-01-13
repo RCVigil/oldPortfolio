@@ -1,25 +1,40 @@
-import React from 'react';
+import React from "react";
 
 import "../../styles/components/Projetos/projetos.sass";
 
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
 
-import { Link } from "react-router-dom";
+import AsideLeft from "../../Components/Aside-Left/Aside-Left";
+import BtnVoltar from "../../Components/Utils/BtnVoltar";
+import Aside from "../../Components/ASide/Aside";
 
 const ProjetosPort = () => {
   return (
     <div className="divPojetos">
       <Header />
       <div className="divContImg">
-        <h1 className="title">Projetos</h1>
-        <Link to={"/"}>
-          Voltar
-        </Link>
+        <div className="bodyDivAside">
+          <AsideLeft />
+        </div>
+
+        <div className="bodyProject">
+          <h1 className="title">Projetos</h1>
+          <h3>Página em construção
+          <a href="https://github.com/RCVigil?tab=repositories">
+            <h4>Clique aqui para meu Repositório no GitHub</h4>
+          </a>
+          </h3>
+          <BtnVoltar />
+        </div>
+
+        <div className="bodyDivAside">
+          <Aside />
+        </div>
       </div>
       <Footer />
     </div>
   );
-}
+};
 
 export default ProjetosPort;
