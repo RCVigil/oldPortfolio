@@ -21,7 +21,11 @@ const ProjetosPort = () => {
         <div className="bodyProject">
           <h1 className="title">Projetos</h1>
           <h3>Página em construção
-          <a href="https://github.com/RCVigil?tab=repositories">
+          <a
+            target="_blank"
+            href="https://github.com/RCVigil?tab=repositories"
+            rel="noreferrer"
+          >
             <h4>Clique aqui para meu Repositório no GitHub</h4>
           </a>
           </h3>
