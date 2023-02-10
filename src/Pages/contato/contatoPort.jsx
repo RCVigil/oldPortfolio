@@ -7,8 +7,7 @@ import Footer from "../../Components/Footer/Footer";
 import RedesSociais from "../../Components/RedesSociais/RedesSociais";
 
 import Avatar from "../../img/RodrigoFoto.jpeg";
-import Curriculum from "../../img/curriculum-Front-End_PDF-IMPRESSAO.pdf";
-// import { Link } from "react-router-dom";
+
 import BtnVoltar from "../../Components/Utils/BtnVoltar";
 
 const ContatoPort = () => {
@@ -23,11 +22,6 @@ const ContatoPort = () => {
         <RedesSociais />
         <h3 className="redesSoc">Redes Sociais</h3>
         <div className="divBtn">
-          <div className="divBtnCurric">
-            <a href={Curriculum} target="_blanc" className="btn">
-              Download Curriculum
-            </a>
-          </div>
           <BtnVoltar />
         </div>
       </div>
